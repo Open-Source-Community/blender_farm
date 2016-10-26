@@ -24,8 +24,8 @@ done
 
 #clean up and exit
 if [ $? -eq 0 ]; then
-	rm -r render/
-	rm promo_linux.blend
+	rm -rf render/
+	rm -f promo_linux.blend
 	echo "All done. Thank you <3 :D"
 else
 	echo "something went wrong while uploading the photos :("
