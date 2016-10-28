@@ -24,7 +24,6 @@ done
 
 #clean up and exit
 if [ $? -eq 0 ]; then
-	rm -rf render/
 	rm -f promo_linux.blend
 	echo "All done. Thank you <3 :D"
 else
